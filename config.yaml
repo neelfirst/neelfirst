@@ -1,0 +1,84 @@
+---
+title: "neelkantha"
+baseURL: "https://neelfirst.com/"
+theme: "zen"
+languageCode: "en-GB"
+defaultContentLanguage: "en"
+pluralizelisttitles: false
+removePathAccents: true
+rssLimit: 20
+pagination:
+  pagerSize: 20
+  path: page
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+
+outputFormats:
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home: ["HTML","RSS", "JSON", "SearchIndex"]
+  section: ["HTML","RSS", "JSON"]
+
+params:
+  author:
+    name: "neel"
+    url: "https://neelfirst.com"
+  contact: "neelfirst@gmail.com"
+  copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a> licence.<!--/Creative Commons License-->'
+  customCSS: "css/custom.css"
+  description: "Personal writings."
+  dateformat: "2 January, 2006"
+  favicon: "images/n_stylized.png"
+  feedlinks: true
+  icon: "images/n_stylized.png"
+  image: "images/n_stylized.png"
+  imageMaxWidth: 400
+  logo: "images/n_stylized.png"
+  logoWidth: 64
+  logoHeight: 64
+  mainSections:
+    - posts
+    - meditations
+    - audiobooks
+  mobileMenu: true
+  mobileMenuOutline: true
+  poweredby: true
+  realfavicongenerator: true
+  sidebar: false
+  submitted: true
+  titleCaseStyle: 'none'
+
+languages:
+  en:
+    weight: 1
+    languageName: "English"
+    languageCode: "en-US"
+    contentDir: content
+    menu:
+      main:
+        - Name: "home"
+          weight: -10
+          pageRef: "/"
+        - Name: "meditations"
+          weight: 2
+          pageRef: "/meditations/"
+        - Name: "audiobooks"
+          weight: 4
+          pageRef: "/audiobooks/"
+#        - Name: "Products"
+#          weight: 6
+#          pageRef: "/products/"
+#        - Name: "Search"
+#          weight: 6
+ #         pageRef: "/search/"
