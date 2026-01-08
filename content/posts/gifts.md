@@ -4,7 +4,7 @@ date: 2025-03-14T17:24:22-07:00
 draft: false
 ---
 
-![image](/images/gifts.png)
+![image](/images/gifts.jpg)
 
 ### the feather
 
