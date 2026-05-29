@@ -2,7 +2,7 @@
 title: "neelkantha"
 baseURL: "https://neelfirst.com/"
 theme: "zen"
-languageCode: "en-GB"
+locale: "en-GB"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
 removePathAccents: true
@@ -62,8 +62,8 @@ params:
 languages:
   en:
     weight: 1
-    languageName: "English"
-    languageCode: "en-US"
+    label: "English"
+    locale: "en-US"
     contentDir: content
     menu:
       main:

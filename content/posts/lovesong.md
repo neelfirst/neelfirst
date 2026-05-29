@@ -4,7 +4,7 @@ date: 2025-07-07T21:34:17-08:00
 draft: false
 ---
 Do I dare  
-Disturb the inverse?  
+Disturb the universe?  
 In a minute there is time  
 For decisions and revisions which a minute will reverse.  
 
